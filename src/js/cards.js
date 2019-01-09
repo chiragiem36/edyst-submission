@@ -22,6 +22,7 @@ module.exports.createCards = function () {
     name.innerText = card.name
 
     const description = document.createElement('div')
+    description.setAttribute('class', 'description')
     description.innerText = card.description
 
     const desc = document.createElement('div')
