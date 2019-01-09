@@ -11,5 +11,7 @@ window.onload = () => {
     store.setState('cards', res.body)
   })
   .then(() => {
+    const parent = createCards()
+    document.getElementById('app').appendChild(parent)
   })
 }
