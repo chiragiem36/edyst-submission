@@ -1,6 +1,7 @@
 const xhr = require('./js/xhr.js')
 const store = require('./js/store.js')
 const state = store.state()
+const createCards = require('./js/cards.js').createCards
 
 window.onload = () => {
   const options = {
