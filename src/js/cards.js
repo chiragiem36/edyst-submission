@@ -15,7 +15,7 @@ module.exports.createCards = function () {
     const next = document.createElement('div')
     next.setAttribute('class', 'next')
     next.setAttribute('style', 'background-color: ' + card.cardColors.textbg)
-    next.innerText = cards[i].name
+    next.innerText = cards[i].tag
 
     const name = document.createElement('div')
     name.setAttribute('class', 'name')

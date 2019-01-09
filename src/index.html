@@ -78,6 +78,48 @@
         height: 200px;
       }
 
+      @media (max-width: 578px) {
+        .card-wrapper {
+          width: 100%;
+          margin-top: 20px;
+        }
+      }
+
+      @media (min-width: 579px) {
+        .card-wrapper {
+          width: 50%;
+        }
+
+        .card {
+          width: 80%;
+          float: left;
+          margin-top: 20px;
+        }
+
+        .desc {
+          min-height: 252px;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .card-wrapper {
+          display: inline-flex;
+          width: 33%;
+        }
+
+        .card {
+        }
+
+        .desc {
+          min-height: 200px;
+        }
+
+        img {
+          min-height: 151px;
+          width: 100%;
+        }
+      }
+
     </style>
   </head>
   <body>
